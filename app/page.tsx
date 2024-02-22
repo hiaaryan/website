@@ -53,7 +53,7 @@ export default function Home() {
             >
               <Image
                 alt="athletico"
-                src={"/athletico/Frame 11.png"}
+                src={"/athletico/Frame 1.png"}
                 fill
                 className="!static"
               />
