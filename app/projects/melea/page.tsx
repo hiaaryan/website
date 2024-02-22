@@ -76,7 +76,7 @@ export default function Melea() {
                 Corp.
                 <br />
                 <br />
-                Melea's brand identity displays and elegant and friendly
+                Melea&apos;s brand identity displays and elegant and friendly
                 personality acquiring the colours of nature, which emits an
                 emotion of loving the planet. The logo and typography have also
                 been provided with a contrast.

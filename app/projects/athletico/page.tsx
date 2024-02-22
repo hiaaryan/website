@@ -79,9 +79,9 @@ export default function athletico() {
                 training centers across the nation. <br />
                 <br />
                 The visual identity developed is centered around the theme of
-                'hunger for sports', reflecting our passion for athleticism and
-                a forward-thinking, sporty spirit that resonates with young
-                athletes.
+                &apos;hunger for sports&apos;, reflecting our passion for
+                athleticism and a forward-thinking, sporty spirit that resonates
+                with young athletes.
               </p>
             </div>
             <div className="flex h-full flex-col justify-center gap-6">

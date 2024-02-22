@@ -80,9 +80,9 @@ export default function BeepBeep() {
               </div>
               <p className="text-pretty text-justify lg:w-1/2 lg:text-left">
                 Beep Beep is a vibrant and innovative creative media design
-                agency for communication, design, and ad strategy. Beep Beep's
-                brand elements, mascot, and visual identity reflect its bold,
-                fun, and charming essence.
+                agency for communication, design, and ad strategy. Beep
+                Beep&apos;s brand elements, mascot, and visual identity reflect
+                its bold, fun, and charming essence.
                 <br />
                 <br />
                 Specializing in creating engaging and professional content, Beep
