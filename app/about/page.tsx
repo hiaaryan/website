@@ -1,51 +1,11 @@
-import { IconArrowNarrowRight, IconArrowUpRight } from "@tabler/icons-react";
-import Link from "next/link";
 import Image from "next/image";
+import SideNav from "@/app/components/SideNav";
 
 export default function Home() {
   return (
     <main>
       <div className="w-full lg:flex">
-        <div className="h-dvh lg:w-1/3">
-          <div className="flex h-full flex-col justify-between px-3 py-2 lg:fixed">
-            <div className="flex items-center text-left">
-              A <IconArrowNarrowRight className="-ml-0.5 h-4" /> K
-            </div>
-            <div className="flex flex-col gap-6">
-              <div className="flex flex-col">
-                <Link
-                  className="w-fit hover:translate-x-1 hover:transform"
-                  href="/"
-                >
-                  Work
-                </Link>
-                <Link
-                  className="w-fit hover:translate-x-1 hover:transform"
-                  href="/resume.pdf"
-                  target="_blank"
-                >
-                  Resume
-                </Link>
-              </div>
-              <div className="flex flex-col">
-                <Link
-                  className="w-fit hover:translate-x-1 hover:transform"
-                  href="https://linkedin.com/in/hiaaryan"
-                  target="_blank"
-                >
-                  LinkedIn
-                </Link>
-                <Link
-                  className="w-fit hover:translate-x-1 hover:transform"
-                  href="mailto:hi.aaryankapoor@gmail.com"
-                >
-                  Email
-                </Link>
-              </div>
-              <div className="text-white">2024 Aaryan Kapoor.</div>
-            </div>
-          </div>
-        </div>
+        <SideNav />
         <div className="flex flex-col justify-between gap-3 p-3 lg:w-2/3">
           <div className="flex items-start justify-start lg:w-2/3">
             <div className="flex h-full w-full flex-col gap-4">

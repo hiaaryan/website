@@ -1,53 +1,13 @@
-import { IconArrowNarrowRight } from "@tabler/icons-react";
-import Link from "next/link";
 import Image from "next/image";
 import { IconArrowUpRight } from "@tabler/icons-react";
+import SideNav from "@/app/components/SideNav";
 
 export default function athletico() {
   return (
     <main>
-      <div className="min-h-screen w-full">
-        <div className="absolute top-0 z-30 h-dvh lg:w-1/3">
-          <div className="z-30 flex h-full flex-col justify-between bg-none px-3 py-2 lg:fixed">
-            <div className="flex items-center text-left">
-              A <IconArrowNarrowRight className="-ml-0.5 h-4" /> K
-            </div>
-            <div className="flex flex-col gap-6">
-              <div className="flex flex-col">
-                <Link
-                  className="w-fit hover:translate-x-1 hover:transform"
-                  href="/"
-                >
-                  Work
-                </Link>
-                <Link
-                  className="w-fit hover:translate-x-1 hover:transform"
-                  href="/resume.pdf"
-                  target="_blank"
-                >
-                  Resume
-                </Link>
-              </div>
-              <div className="flex flex-col">
-                <Link
-                  className="w-fit hover:translate-x-1 hover:transform"
-                  href="https://linkedin.com/in/hiaaryan"
-                  target="_blank"
-                >
-                  LinkedIn
-                </Link>
-                <Link
-                  className="w-fit hover:translate-x-1 hover:transform"
-                  href="mailto:hi.aaryankapoor@gmail.com"
-                >
-                  Email
-                </Link>
-              </div>
-              <div className="text-white">2024 Aaryan Kapoor.</div>
-            </div>
-          </div>
-        </div>
-        <div className="relative min-h-dvh w-full">
+      <div className="w-full">
+        <SideNav />
+        <div className="absolute top-0 -z-10 min-h-dvh w-full bg-white">
           <video
             className="absolute top-0 h-full w-full object-cover object-center"
             autoPlay
@@ -62,7 +22,7 @@ export default function athletico() {
           <div className="hidden w-1/3 lg:block"></div>
           <div className="flex flex-col px-3 lg:w-2/3">
             <div className="flex h-full flex-col justify-center gap-6 py-12">
-              <div className="flex w-full items-center justify-between text-white">
+              <div className="flex w-full items-center justify-between">
                 <p>
                   athletico&#8482; <br />
                   Run. Grind. Win.
@@ -92,6 +52,12 @@ export default function athletico() {
                     src={"/athletico/Moodboard.png"}
                     fill
                     className="!static invert"
+                  />
+                  <Image
+                    alt="athletico"
+                    src={"/athletico/Frame 1.png"}
+                    fill
+                    className="!static"
                   />
                   <Image
                     alt="athletico"
