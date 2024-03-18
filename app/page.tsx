@@ -16,9 +16,9 @@ export default function Home() {
             >
               <Image
                 alt="athletico"
-                src={"/athletico/Frame 2.gif"}
+                src={"/athletico/Frame 1.png"}
                 fill
-                className="!static invert"
+                className="!static"
               />
               <div className="absolute bottom-0 hidden w-full items-center justify-between px-4 py-3 text-white lg:group-hover/athletico:flex">
                 <p>

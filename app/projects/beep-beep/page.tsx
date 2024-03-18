@@ -28,7 +28,7 @@ export default function BeepBeep() {
           <div className="hidden w-1/3 lg:block"></div>
           <div className="flex flex-col px-3 lg:w-2/3">
             <div className="flex h-full flex-col justify-center gap-6 py-12">
-              <div className="flex w-full items-center justify-between text-white">
+              <div className="flex w-full items-center justify-between">
                 <p>
                   Beep Beep&#8482; <br />
                   Beepin Great Ads.
