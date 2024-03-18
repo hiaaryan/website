@@ -11,7 +11,7 @@ export default function SideNav() {
           </div>
           <div>Brand Artisan.</div>
         </div>
-        <div className="text-9xl">24®</div>
+        <div className="hidden text-9xl lg:block">24®</div>
         <div className="flex flex-col gap-6">
           <div className="flex flex-col">
             <Link
