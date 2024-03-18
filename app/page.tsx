@@ -16,7 +16,7 @@ export default function Home() {
             >
               <Image
                 alt="athletico"
-                src={"/athletico/Frame 1.png"}
+                src={"/athletico/Frame 5.png"}
                 fill
                 className="!static"
               />
@@ -39,7 +39,7 @@ export default function Home() {
             >
               <Image
                 alt="beep-beep"
-                src={"/beep-beep/Frame 4.png"}
+                src={"/beep-beep/Frame 12.png"}
                 fill
                 className="!static"
               />
@@ -62,7 +62,7 @@ export default function Home() {
             >
               <Image
                 alt="flotek"
-                src={"/flotek/Frame 12.png"}
+                src={"/flotek/Frame 6.png"}
                 fill
                 className="!static"
               />
