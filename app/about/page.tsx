@@ -41,7 +41,7 @@ export default function Home() {
           <div className="flex items-center justify-center lg:w-2/3">
             <div className="flex h-full flex-col justify-center gap-6">
               <div className="text-pretty text-justify">
-                Hello there! I am Aaryan. Aaryan Kapoor. I am a creative brand
+                Hello there! I am Aaryan aka 24®. I am a creative brand
                 &lsquo;artisan&lsquo; and an adult fan of LEGO (AFOL). I always
                 liked to build &amp; fiddle and that&#39;s what led me to the
                 world of design. I strongly believe that design has the power to
